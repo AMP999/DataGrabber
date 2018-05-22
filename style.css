@@ -1,0 +1,43 @@
+body{
+    border: rgba(50, 162, 79, 1) solid medium;
+    border-radius: 7px;
+    width: 200px;
+    padding: 5px;
+    margin: 1px;
+}
+span{
+    padding:0px;
+    margin:5px 5px 5px 5px;
+}
+.head{
+    font-weight: 600;
+    font: 18px 'Open Sans', Arial, sans-serif;
+    color:whitesmoke;
+    background-color: rgba(31, 41, 75, 1);
+    text-align: center;
+    margin: 0px;
+    padding:12px 0px;
+}
+.body{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font: 16px 'Open Sans', Arial, sans-serif;
+    text-align: center;
+}
+#grabBut{
+    font: 16px 'Open Sans', Arial, sans-serif;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    box-shadow: none;
+    display:inline-block;
+    outline: none;
+    border-style: none;
+    background-color: rgba(108, 108, 108, 0.75);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#grabBut:hover{
+    cursor: pointer;
+}
